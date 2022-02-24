@@ -99,7 +99,7 @@ export interface IFieldValue {
 export interface SuitOpenSpi {
   refreshData: <T>(
     params: { bizAsyncData: IFieldValue[]; modifiedBizAlias: string[]; },
-    mockData: any,
+    mockData?: any,
   ) => Promise<T> 
 }
 

@@ -1,12 +1,33 @@
 {
-  "name": "请假套件-advanced",
+  "name": "套件-advanced",
   "category": "suite_test",
   "description": "请假套件demo版，看完就学会了套件开发",
   "icon": "https://static.dingtalk.com/media/lALOB0o7K8yQzJA_144_144.png",
   "appId": "",
-  "bizType": "com.example.leave",
-  "props": {},
-  "setters": [],
+  "bizType": "attendance.out",
+  "props": {
+    
+  },
+  "setters": [
+    {
+      "propName": "hiddenReason",
+      "setterName": "CustomSetter",
+      "props": {
+        "label": "是否隐藏请假理由",
+        "defaultChecked": false
+      },
+      "type": "custom"
+    },
+    {
+      "propName": "height",
+      "setterName": "Slider",
+      "props": {
+        "label": "身高",
+        "max": 200,
+        "min": 3
+      }
+    }
+  ],
   "children": [
     {
       "componentName": "SelectField",

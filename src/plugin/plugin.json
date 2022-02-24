@@ -4,6 +4,6 @@
     "mobile": "./components/runtime/mobile/index",
     "setter": "./components/designer/setter/CustomSetter/index"
   },
-  "pluginId": "5000000001616274",
+  "pluginId": "5000000001950392",
   "main": "./index.js"
 }

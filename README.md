@@ -22,9 +22,9 @@ https://open-dev.dingtalk.com/fe/old#/plugin
 sudo npm install -g dingtalk-design-cli@0.20.3-beta.2
 
 ## ding init
-配置miniAppId、token
-ding.config.json->  { miniAppId , token }
-plugin.json-> { pluginId : miniAppId }
+配置miniAppId、token  
+ding.config.json->  { miniAppId , token }  
+plugin.json-> { pluginId : miniAppId }  
 
 ## ding dev 用来热更新
 然后运行 proxy 子命令，用来代理线上代码；  
